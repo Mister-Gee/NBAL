@@ -1,0 +1,983 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* --------------------- Header -----------------------*/
+
+.top-area {
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    left: 0px;
+    top: 0px;
+    background: #2D6936;
+}
+
+.top-area p {
+    position: absolute;
+    width: 100%;
+    height: 17px;
+    left: 180px;
+    top: 12px;
+    /* P -- 14px - Medium */
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #E0E0E0;
+}
+
+.log-btn {
+    position: absolute;
+    width: 289px;
+    height: 45px;
+    left: 967px;
+    top: 0px;
+    background: #FFF500;
+    border: 1px solid #FFF500;
+    box-sizing: border-box;
+    color: #000000;
+}
+
+.log-btn:hover {
+    background: #000000;
+    color: #FFF500;
+    border: solid #FFF500 1px;
+}
+
+
+/* --------------------- Nav -----------------------*/
+
+nav {
+    position: absolute;
+    width: 100%;
+    height: 82px;
+    left: 0px;
+    top: 45px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+nav a img {
+    position: absolute;
+    width: 92px;
+    height: 93px;
+    left: 60px;
+    top: -25px;
+}
+
+nav .collapse {
+    position: absolute;
+    left: 359px;
+    top: 15px;
+}
+
+nav .collapse .navbar-nav {
+    margin-left: 180px;
+}
+
+nav .collapse .navbar-nav .nav-item {
+    margin-right: 35px;
+    height: 19px;
+}
+
+nav .collapse .navbar-nav .nav-item a {
+    position: relative;
+    color: #2D6936;
+}
+
+nav .collapse .navbar-nav .nav-item a:hover {
+    color: #000;
+}
+
+nav .collapse .navbar-nav .active a::after {
+    position: absolute;
+    content: " ";
+    left: 0;
+    right: 0;
+    bottom: -3px;
+    border-bottom: #2D6936 3px solid;
+}
+
+
+/* --------------------- Hero -----------------------*/
+
+.hero {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    background: url("../img/dedicated-profeessionals-slide\ 1.png") top center no-repeat;
+    background-size: cover;
+    left: 0px;
+    top: 127px
+}
+
+.hero section h1 {
+    position: absolute;
+    width: 715px;
+    height: 50px;
+    left: 58px;
+    top: 150px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 50px;
+    color: #FFF500;
+}
+
+.hero section h1::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 95px;
+    height: 3px;
+    background: #FFF500;
+    bottom: 100px;
+}
+
+.hero p {
+    position: absolute;
+    width: 650px;
+    height: 95px;
+    left: 59px;
+    top: 250px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #F2F2F2;
+}
+
+.cta {
+    position: absolute;
+    left: 59px;
+    top: 400px;
+    background: #2D6936;
+    border-radius: 5px;
+    border: 1px #2D6936 solid;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.cta:hover {
+    background: #000;
+    border: 1px #FFF500 solid;
+    color: #FFF500;
+}
+
+
+/*------------------- Services ---------------------*/
+
+.services-row {
+    position: relative;
+    top: 700px;
+    left: 150px;
+    margin-bottom: 50px;
+}
+
+.service p {
+    width: 206px;
+    height: 22px;
+    position: relative;
+    right: 10%;
+    margin-top: 20px;
+}
+
+.group {
+    margin-top: 10px;
+}
+
+.group p {
+    right: 13%;
+}
+
+
+/*----------------- Content ----------------*/
+
+.content {
+    position: absolute;
+    width: 100%;
+    height: 650px;
+    left: -9px;
+    top: 988px;
+    background: url("../img/businesswoman-consulting-legal-experts_74855-1115\ 1.png") top center no-repeat;
+    background-size: cover;
+}
+
+.content-body {
+    position: absolute;
+    width: 516px;
+    height: 650px;
+    left: 832px;
+    top: 0;
+    background: #2D6936;
+    opacity: 0.95;
+}
+
+.content-body h4 {
+    position: relative;
+    width: 331px;
+    height: 59px;
+    left: 50px;
+    top: 150px;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.content-body h4::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 75px;
+    height: 3px;
+    background: #FFF500;
+    bottom: 100px;
+}
+
+.content-body p {
+    position: relative;
+    width: 331px;
+    height: 196px;
+    left: 50px;
+    top: 180px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    text-align: justify;
+    color: #E0E0E0;
+}
+
+.learnmore-btn {
+    background-color: #f2f2f2;
+    color: #2D6936;
+    position: relative;
+    left: 50px;
+    top: 250px;
+    border: #F2F2F2 1px solid;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.learnmore-btn:hover {
+    background-color: transparent;
+    color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+}
+
+
+/*----------------- News ----------------*/
+
+.news-header h2 {
+    position: relative;
+    width: 288px;
+    height: 42px;
+    left: 90px;
+    top: 1550px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+
+.news-header h2::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 75px;
+    height: 3px;
+    background: #FFF500;
+    bottom: 70px;
+}
+
+.news-header a {
+    position: relative;
+    width: 93px;
+    height: 42px;
+    left: 1140px;
+    top: 1490px;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+
+.news-row {
+    position: relative;
+    left: 70px;
+    top: 1619px;
+    margin-left: -150px;
+}
+
+.news-group {
+    width: 274px;
+    height: 409px;
+    background: #EAEAEA;
+    border-radius: 3px;
+    margin-right: 50px;
+}
+
+.news-group img {
+    width: 274px;
+    height: 200px;
+}
+
+.news-group p {
+    width: 196px;
+    font-size: 12px;
+    line-height: 21px;
+    color: #000000;
+    position: relative;
+    left: 40px;
+    top: 60px;
+}
+
+.news-group .date {
+    color: #828282;
+    margin-top: 50px;
+}
+
+
+/*--------------Footer-----------------*/
+
+.footer-head {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    left: 0px;
+    top: 1704px;
+    background: #2D6936;
+}
+
+.footer-group {
+    margin-top: 100px;
+    color: #ffffff;
+}
+
+.footer-group h6 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer-group p {
+    margin-top: 10px;
+    width: 209px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer-mid {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    left: 0px;
+    top: 1704px;
+    background: #EAEAEA;
+}
+
+.social-group .social {
+    display: inline-block;
+    position: relative;
+    left: 120px;
+    margin-right: 10px;
+}
+
+.social-group .social a {
+    font-size: 27px;
+    color: #2D6936;
+}
+
+.footer-link {
+    position: relative;
+    width: 534px;
+    height: 19px;
+    left: 858px;
+    top: -30px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.footer-link a {
+    color: #2D6936;
+    margin-right: 30px;
+}
+
+.footer-last {
+    position: relative;
+    height: 70px;
+    left: 0px;
+    top: 1700px;
+    background: #FFFFFF;
+}
+
+.copyright p {
+    margin: 30px 0 0 120px;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4F4F4F;
+}
+
+.last-link {
+    position: relative;
+    width: 534px;
+    height: 19px;
+    left: 858px;
+    top: -20px;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.last-link a {
+    color: #4F4F4F;
+    margin-right: 30px;
+}
+
+
+/*------------- About Us -----------------*/
+
+.abt-hero {
+    position: absolute;
+    width: 100%;
+    height: 369px;
+    left: 0;
+    top: 127px;
+    background: linear-gradient(rgba(51, 51, 51, 0.58), rgba(51, 51, 51, 0.58)), url("../img/judge-gavel-with-justice-lawyers-having-team-meeting-law-firm-background-concepts-law-legal-services_1418-2271\ 1.png")no-repeat center top;
+    background-size: cover;
+}
+
+.abt-hero section {
+    position: absolute;
+    width: 661px;
+    height: 229px;
+    left: 60px;
+    top: 50px;
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+    border-radius: 2px;
+    color: #FFFFFF;
+    padding: 30px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.abt-hero section h2::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 95px;
+    height: 3px;
+    background: #FFF500;
+    bottom: 210px;
+}
+
+.about-row {
+    position: absolute;
+    left: 60px;
+    top: 455px;
+    margin-left: 20px;
+}
+
+.about-group {
+    width: 363px;
+    height: 389px;
+    background: #F2F2F2;
+}
+
+.about-group .picture-holder {
+    position: relative;
+    top: 10px;
+    left: 15px;
+    width: 333px;
+    height: 240px;
+    background: #828282;
+}
+
+.about-group .picture-holder h2 {
+    position: relative;
+    width: 271px;
+    height: 38px;
+    left: 90px;
+    top: 90px;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.about-group .mid h2 {
+    position: relative;
+    left: 35px;
+}
+
+.about-group p {
+    font-size: 13px;
+    line-height: 21px;
+    color: #000000;
+    width: 329px;
+    height: 58px;
+    padding-top: 30px;
+    margin-left: 20px;
+}
+
+.about-group a {
+    margin-top: -55px;
+    margin-left: -25px;
+    font-size: 14px;
+}
+
+.extra-abt-body a:hover,
+.about-group a:hover {
+    border: 1px solid #2D6936;
+    background: transparent;
+    color: #2D6936;
+}
+
+main .extra-abt {
+    position: absolute;
+    width: 100%;
+    height: 474px;
+    left: 0px;
+    top: 951px;
+    background: #f2f2f2;
+}
+
+.extra-abt-body {
+    margin-left: 40px;
+}
+
+.extra-abt-body .holder {
+    margin-top: 40px;
+    background: #FFFFFF;
+    width: 470px;
+    height: 240px;
+}
+
+.extra-abt-body .holder p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    position: relative;
+    left: 140px;
+    top: 100px;
+}
+
+.extra-abt-body p {
+    width: 470px;
+    margin-top: 30px;
+}
+
+.abt-news {
+    margin-top: -50px;
+}
+
+
+/*------------- History-----------------*/
+
+.abt-hero .history-abt-hero-body {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+}
+
+.abt-hero .history-abt-hero-body h2,
+.abt-hero .history-abt-hero-body p {
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.abt-hero .history-abt-hero-body h2::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 95px;
+    height: 3px;
+    background: #FFF500;
+    bottom: 50px;
+}
+
+.history-content {
+    position: relative;
+    top: 500px;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    background: #fff;
+}
+
+.history-content p {
+    width: 923px;
+    height: 222px;
+    margin-left: 200px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.extra-history-content {
+    position: absolute;
+    width: 100%;
+    height: 849px;
+    left: 0px;
+    top: 895px;
+    background: #2D6936;
+    color: #ffffff;
+}
+
+.extra-history-body h3 {
+    position: relative;
+    width: 332px;
+    height: 38px;
+    left: 0px;
+    top: 100px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+}
+
+.extra-history-body h3::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 75px;
+    height: 3px;
+    background: #FFF500;
+    bottom: 50px;
+}
+
+.extra-history-body .history-p {
+    position: relative;
+    top: 120px;
+    font-size: 15px;
+}
+
+.extra-history-body .history-p p,
+.extra-history-body .history-p ol {
+    margin-bottom: 30px;
+}
+
+.extra-history-body .history-p ul {
+    list-style-type: none;
+}
+
+.extra-history-body .history-p ul li::before {
+    content: "- "
+}
+
+
+/*------------- Membership-----------------*/
+
+.mem-hero {
+    position: absolute;
+    width: 100%;
+    height: 369px;
+    left: 0;
+    top: 127px;
+    background: linear-gradient(rgba(51, 51, 51, 0.58), rgba(51, 51, 51, 0.58)), url("../img/happy-confident-female-professional-wearing-eyeglasses_74855-2256\ 1.png")no-repeat center top;
+    background-size: cover;
+}
+
+.mem-hero-body {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 229px;
+    top: 50px;
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+    border-radius: 2px;
+    color: #FFFFFF;
+    padding: 30px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.mem-hero-body h2,
+.mem-hero-body p {
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.mem-hero-body h2::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 95px;
+    height: 3px;
+    background: #FFF500;
+    bottom: 50px;
+}
+
+.mem-content {
+    position: absolute;
+    width: 100%;
+    height: 485px;
+    left: 0px;
+    top: 821px;
+    background: #F2F2F2;
+}
+
+.mem-content h3 {
+    position: relative;
+    width: 343px;
+    height: 38px;
+    left: 501px;
+    top: 100px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #2D6936;
+}
+
+.mem-content h3::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 79px;
+    height: 3px;
+    background: #2d6939;
+    bottom: 50px;
+    left: 130px;
+}
+
+.mem-content p {
+    position: relative;
+    width: 526px;
+    height: 30px;
+    left: 402px;
+    top: 120px;
+    font-size: 16px;
+    line-height: 23px;
+    color: #2D6936;
+}
+
+.mem-row {
+    width: 100%;
+    margin-top: 200px;
+    margin-left: 120px;
+}
+
+.mem-detail p {
+    margin-top: -70px;
+    margin-left: -410px;
+    width: 100%;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.sec p {
+    margin-top: -60px;
+}
+
+.mem-extra {
+    position: absolute;
+    width: 100%;
+    height: 362px;
+    left: 0px;
+    top: 1306px;
+    background: #2D6936;
+}
+
+.mem-extra h3 {
+    position: relative;
+    width: 575px;
+    height: 38px;
+    left: 385px;
+    top: 100px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #F2F2F2;
+}
+
+.mem-extra h3::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 79px;
+    height: 3px;
+    background: #FFF500;
+    bottom: 50px;
+    left: 230px;
+}
+
+.mem-extra p {
+    position: relative;
+    width: 601px;
+    height: 19px;
+    left: 425px;
+    top: 130px;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: justify;
+    color: #F2F2F2;
+}
+
+.mem-extra a {
+    position: relative;
+    left: 600px;
+    top: 150px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.mem-news {
+    margin-top: -200px;
+}
+
+
+/*-------------- Membership Directory----------------*/
+
+.search {
+    position: relative;
+    top: 420px;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background: #FFFFFF;
+}
+
+.search .label {
+    position: relative;
+    width: 215px;
+    height: 22px;
+    left: 223px;
+    top: 50px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.search .input-group {
+    width: 800px;
+    position: relative;
+    top: 50px;
+    left: 263px;
+}
+
+.search .cta {
+    width: 142px;
+    position: relative;
+    top: 70px;
+    left: 263px;
+}
+
+
+/*--------------Media---------------*/
+
+.media-hero {
+    position: absolute;
+    width: 100%;
+    height: 197px;
+    left: 0px;
+    top: 119px;
+    background: #2D6936;
+}
+
+.media-hero-body {
+    color: #FFFFFF;
+}
+
+.media-hero-body h2 {
+    position: relative;
+    width: 105px;
+    height: 38px;
+    left: 30px;
+    top: 60px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.media-hero-body h2::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 95px;
+    height: 3px;
+    background: #FFF500;
+    bottom: 50px;
+    left: 0;
+}
+
+.media-hero p {
+    position: relative;
+    left: 30px;
+    top: 60px;
+    width: 115px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #F2F2F2;
+}
+
+.media-content {
+    position: relative;
+    top: 230px;
+    background: #FFFFFF;
+    width: 100%;
+    margin-left: -80px;
+}
+
+.media-detail {
+    position: relative;
+    width: 500px;
+    height: 307px;
+    left: 60px;
+    top: 50px;
+    background: url("../img/Rectangle\ 265.png"), #828282;
+    border-radius: 3px;
+    margin-bottom: 50px;
+}
+
+.media-detail img {
+    position: relative;
+    top: 100px;
+    left: 200px;
+    width: 100px;
+}
+
+.media-news {
+    margin-top: -1200px;
+}
